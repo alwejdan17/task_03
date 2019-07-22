@@ -5,6 +5,16 @@
         <title>List</title>
     </head>
     <body>
+    	{% for object in my_object %}
+    	    <h1>
+    	    	{{object.restaurant_name}}
+    	    </h1>
+    	    <h2>
+    	    	{{object.food_type}}
+    	    </h2>
+    	 {%endfor%}
 
+
+   
     </body>
 </html>
